@@ -27,7 +27,11 @@ if q1 == 2004:
     counter += 1
     print("Yes! you are correct gang.")
 else: 
-    print("Sorry. you aint get this one right gang.")
+    print("Sorry. you aint get this one right gang try again.")
+
+
+
+
 
 
 print("what is the name of the first video game ever created?")
@@ -38,9 +42,13 @@ print(" D - output (super mario bros.)")
 q2 = input ("Your Answer - Choose A/B/C/D: ")
 if q2.upper() =="C":
     counter += 1
-    print ("Yes! You are correct gang. Python would use the print() function to output something to the terminal.")
+    print ("Yes! You are correct gang Great Job Boss")
 else:
-    print("Sorry. That is not correct.")
+    print("Sorry. That is notcorrect Chief Try Again Next Time.")
+
+
+
+
 
 print("First 3D video game that was made?")
 print(" A - output (Maze War)")
@@ -50,9 +58,13 @@ print(" D - output (DOOM)")
 q3 = input ("Your Answer - Choose A/B/C/D: ")
 if q3.upper() =="A":
     counter += 1
-    print ("Yes! You are correct gang. Python would use the print() function to output something to the terminal.")
+    print ("Yes! You are correct gang.")
 else:
     print("Sorry. That is not correct.")
+
+
+
+
 
 q4 = int(input("What Year was the Super Nintendo Released in America?"))
 if q4 == 1991:
@@ -60,6 +72,10 @@ if q4 == 1991:
     print("Yes! you are correct gang.")
 else: 
     print("Sorry. you aint get this one right gang.")
+
+
+
+
 
 print("The Year Grand Theft Auto V Released?")
 print(" A - output (2010)")
@@ -75,10 +91,14 @@ else:
 
 if counter == 5:
     print("You are a Pro! You got them all correct!")
-elif counter >= 3 and counter < 5:
+elif counter >= 4 and counter < 5:
     print("Great work gang!")
 elif counter >= 1 and counter < 3: 
     print("Maybe this subject isn't for you gang!")
+
+
+
+
 
 
     print ("* * * * YOUR FINAl SCORE *  * * *")
